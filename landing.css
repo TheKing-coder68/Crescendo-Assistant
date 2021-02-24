@@ -1,0 +1,165 @@
+/*Makes the background grey-ish*/
+body{
+    background: rgba(21, 20, 20, 0.94);
+}
+
+/*Makes the navbar a little bigger*/
+.header{
+    position: absolute;
+    width: 1440px;
+    height: 103px;
+    left: 0px;
+    top: 0px;
+}
+.nav-logo{
+    position: absolute;
+    left: 7.43%;
+    right: 88.33%;
+    top: 22.33%;
+    bottom: 22.33%;
+
+    background: #4CEAFF;
+}
+.nav-title{
+    position: absolute;
+    left: 13.33%;
+    right: 77.43%;
+    top: 33.01%;
+    bottom: 33.01%;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: #FFFFFF;
+}
+/*Aligns the Items to the right side of the page*/
+.nav-btn{
+    font-size:25px;
+    color:white;
+    float:right;
+}
+
+h1.title{
+position: absolute;
+width: 576px;
+height: 54px;
+left: 67px;
+top: 251px;
+
+font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 46px;
+line-height: 54px;
+/* identical to box height */
+
+color: #4CEAFF;
+}
+
+p.sub-title{/* Lorem ipsum dolor sit amet, adipisc elit, sed do ullamco laboris nisi ut */
+
+    position: absolute;
+    width: 594px;
+    height: 89px;
+    left: 67px;
+    top: 323px;
+    
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    
+    color: #FFFFFF;
+}
+
+.landing-btn{
+    position:absolute;
+    background: #4CEAFF;
+    border-radius: 5px;
+    height: 73px;
+    width: 368px;
+    left: 67px;
+    top: 500px;
+    border-radius: 5px;
+    border-color:black;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+small.para-btn{
+    position: absolute;
+    width: 405px;
+    height: 22px;
+    left: 67px;
+    top: 585px;
+
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+
+    color: #FFFFFF;   
+}
+.empty-rect{
+    position:absolute;
+    right:20px;
+    top:200px;
+
+    width:521px;
+    height:487px;
+    border:1px solid grey;
+}
+.footer{
+    position: absolute;
+    width: 1439px;
+    height: 287px;
+    left: 1px;
+    bottom: 0px;
+}
+h1.footer{
+    position: absolute;
+    left: 7.02%;
+    right: 83.74%;
+    top: 28.57%;
+    bottom: 59.23%;
+    
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: #4CEAFF;    
+}
+
+small.footer{
+    position: absolute;
+    left: 7.37%;
+    right: 56.36%;
+    top: 45.3%;
+    bottom: 59.23%;
+
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+.footer-logo{
+    position:absolute;
+    left: 89.99%;
+    right: 6.6%;
+    top: 17.77%;
+    bottom: 65.16%;
+
+    background-color: #4CEAFF;
+}
